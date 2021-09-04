@@ -4,6 +4,17 @@
 
 ![semantic versioning](./assets/semantic-versioning.jpg)
 
+## Giving npm permission to install newer version
+
+```
+"package-name": "[major].[minor].[patch]"
+
+lodash: "4.17.4"  - install exact version
+lodash: "^4.17.4" - install latest minor  (caret ^)
+lodash: "~4.17.4" - install latest patch version (tilde ~)
+lodash: "*"       - install absolute latest version
+```
+
 ## Accessing the list of commands
 
 ```bash
